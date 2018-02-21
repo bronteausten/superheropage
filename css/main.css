@@ -1,0 +1,97 @@
+/* 14. In CSS: Select the body element and set the margin and padding to 0.*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/* 15. In CSS: select the ul element and set its vertical padding (top and bottom) to 5px and its horizontal padding (left and right) to 0. Can you do this using only one property? (Hint: do this using only one property.*/
+ul {
+	/*padding: 5px 0 5px 0;*/
+	padding: 5px 0;
+}
+
+/*What is the point of number 16 answer: to see how this works in live code, how it moves things up and down the page.*/
+
+/*17. In CSS: Select the h1 element and set the font-size to 2em.*/
+h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 25px;
+}
+/*18. In CSS: Add 3 CSS properties and values to the nav element (background-color, padding, & text-align).*/
+nav {
+	background-color: grey;
+	padding: 60px;
+	text-align: center;
+}
+/*19. In CSS: Add 4 CSS properties and values to the li element (background-color, display, margin, & padding). (Hint: make your li's display horizontally).*/
+li {
+	background-color: black;
+	display: inline-block;
+	margin: 60px;
+	padding: 45px;
+}
+/*20. In CSS: Add 2 CSS properties and values to the anchor element (color & text-decoration)*/
+a {
+	color: crimson;
+	text-decoration: none;
+}
+/*21.In CSS: add 2 CSS properties and values to the section element (background-color & text-align).*/
+section {
+	background-color: crimson;
+	text-align: center;
+}
+/*22. In CSS: Now find where you selected the h1 to change its font-size. Inside the same selector, set margin to 0 and padding to 25px.; */
+
+/*23. In CSS: Add 2 CSS properties and values to those divs with a class of box (display: inline-block & width: 30%)
+ doesn't look like anything is happpening. I also tried div .box and .box div and div.box.*/
+
+div.box {
+	display: inline-block;
+	width: 30%;
+}
+/*24. In CSS: Select the img element inside the div elements and set its width to 100%
+(Hint: when you refresh your page and see your images change, think about what that 100% signifies...100% of what?)*/
+
+img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+
+}
+
+
+img.catWoman {
+	object-position: top;
+}
+
+/*25. In CSS: Select the p element inside the div elements and add 3 properties and values (background-color, border, & padding). */
+
+div p {
+	background-color: #3d3737;
+	border:	68px;
+	padding: 40px;
+}
+/*26. In CSS: Now select the first letter of your p element with "p:first-letter" selector. Give it a different color and a font size of 40px. NOT SURE OF THESE INSTUCTIONS??*/
+p {
+	color: black;
+	font-size: 20px;
+}
+/*4. In CSS: Add 3 CSS properties and values to that footer (background-color, padding & text-align).*/
+footer {
+	background-color: grey;
+	padding: 60px;
+	text-align: center;
+}
+/* 5. In CSS: Add 4 CSS properties and values to the new li elements, but make sure these properties don't ALSO affect the li's in our nav element (background-color, display, margin & padding). */
+footer li {
+	background-color: black;
+	display: inline-block;
+	margin: 25px;
+	padding: 25px;
+}
+/*6. In CSS: Add 2 CSS properties and values to the new anchor elements (color & text-decoration) (I added a class of "wiki" to my anchor tag*/
+
+a.wiki {
+	color: crimson;
+	text-decoration: none;
+}
